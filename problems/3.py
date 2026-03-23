@@ -1,17 +1,14 @@
 # Problem 3 - Check if a number is pallindrome or not
 
-newNum = 0
+n = int(input("Enter a number: "))
+num = n
+result = 0
+while (num > 0):
+    ld = num % 10
+    result = (result * 10) + ld
+    num = num // 10
 
-num = int(input("Enter a number: "))
-numCopy = num
-while (numCopy != 0):
-    lastDigit = numCopy % 10
-    newNum = (newNum * 10) + lastDigit 
-    numCopy = numCopy // 10
-
-print(newNum)
-if (num == newNum):
-    print("Pallindrome!")
+if (result == n):
+    print("The number is a palindrome")
 else:
-    print("Not a pallindrome!")
-    
+    print("The number is not a palindrome")
