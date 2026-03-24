@@ -12,3 +12,15 @@ for i in range(0, len(nums)):
         freq_map[nums[i]] = 1
         
 print(freq_map)
+
+
+# Approach- 2 - Using get() method
+hash_map = {}
+n = len(nums)
+for i in range(0, n):
+    hash_map[nums[i]] = hash_map.get(nums[i], 0) + 1
+
+print(hash_map)
+
+# {}.get => If key is present in the dictionary, it returns the value of that key. If key is not present, it returns the default value provided as the second argument to the get() method. If the default value is not provided, it returns None.
+# Here, 0 is the default value
