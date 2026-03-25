@@ -2,7 +2,8 @@
 
 I solve DSA Problems here for fun ;)
 
-Contact Author:
-arjunagnihotri14a@gmail.com
-arjunagnihotri.com
-https://www.linkedin.com/in/arjunagni/
+### Contact Author:
+
+EMAIL: arjunagnihotri14a@gmail.com
+WEBSITE/PORTFOLIO: https://www.arjunagnihotri.com
+LINKEDIN: https://www.linkedin.com/in/arjunagni/
